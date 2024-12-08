@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right top, #d119d1, #ff3390, #fe716a, #e9a06b, #d5c393, #d6c597, #d8c69b, #d9c89f, #edab7e, #ff867e, #ff5fa1, #a04ea0);
+    
+}
+.calculator{
+    margin-top: 10rem;
+    background-color: #cf526385;
+    height: 24rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: #141314;
+    
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0;
+    margin: 0.5rem;
+}
+.display{
+   
+    background-color: rgba(255, 255, 255, 0.69);
+    color: #161516;
+    text-align: right;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size:2rem;
+    margin-top:0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    overflow-x: auto;
+    scrollbar-color: white;
+    border: #161516;
+    box-shadow: #141314;
+    
+
+}
+
+
+
+.button:hover{
+    background-color: #91909099;
+    transform: scale(1.04);
+}
+.button{
+    font-size: 1.3rem;
+    border-radius: 0.4rem;
+    border:none;
+    cursor: pointer;
+    width: 4rem;
+    height: 3rem;
+    margin: 0.2rem;
+    box-shadow:0 3px 0px rgba(10, 9, 9, 0.453);
+   
+}
+.equal-button:hover{
+
+    background-color: #b5332fa7;
+    transform: scale(1.04);
+}
+.equal-button{
+    font-size: 2rem;
+    background-color: #b1140fa7;
+    grid-row: span 2;
+    border-radius: 0.5rem;
+    border: none;
+    margin-right: 1.4rem;
+    margin-left: 0.4rem;
+    width: 4rem;
+    margin: 0.2rem;
+    box-shadow:0 3px 0px rgba(10, 9, 9, 0.453);
+}
+button.hover {
+    background-color: rgba(170, 87, 103, 0.527);
+    transform: scale(1.04);
+}
+.op{
+    font-size: 1.3rem;
+    border-radius: 0.4rem;
+    border:none;
+    cursor: pointer;
+    width: 4rem;
+    height: 3rem;
+    margin: 0.2rem;
+    box-shadow:0 3px 0px rgba(10, 9, 9, 0.453);
+    background-color: rgba(237, 230, 234, 0.538);
+}
+.op:hover{
+    background-color: rgba(137, 130, 135, 0.347);
+    transform: scale(1.04);
+}
